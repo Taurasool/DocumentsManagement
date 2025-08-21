@@ -1,0 +1,25 @@
+
+
+<!-- This is the main container for all the tab navigation links -->
+<div class="tab-container"> 
+  
+  <!-- This div holds the list of all the tab links -->
+  <div class="tab-list">
+  
+    <!-- Loop through each item in the 'tabs' array -->
+    <!-- For each tab, create a link that navigates to the specified route -->
+    <!-- [routerLink] binds the link to the route path (e.g., '/medical-insurance') -->
+    <!-- routerLinkActive applies the 'active' class when the route is active -->
+    <!-- class 'tab-link' is used for custom styling -->
+    <a *ngFor="let tab of tabs"
+       [routerLink]="tab.route"
+       routerLinkActive="active"
+       class="tab-link">
+      {{ tab.label }}  <!-- Display the tab label like 'Medical' or 'Plan' -->
+    </a>
+    
+  </div>
+</div>
+
+<!-- This is where the routed component's content will be displayed -->
+<router-outlet></router-outlet>

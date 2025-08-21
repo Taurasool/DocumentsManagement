@@ -1,0 +1,122 @@
+
+
+<!-- This container is for the Summernote editor -->
+<!-- <div class="editor-container"> -->
+  <!-- The Summernote editor will be rendered here -->
+  <!-- <div id="summernote"></div>
+</div> -->
+
+<!-- Separate container for buttons -->
+<!-- <div class="button-container">  -->
+   <!-- Clear button: will clear the content of the Summernote editor -->
+   <!-- <button (click)="clearContent()">🗑 Clear</button>  -->
+
+  <!-- Save button: will save the content of the Summernote editor to localStorage and the server -->
+   <!-- <button (click)="saveContent()">💾 Save</button>
+</div> -->
+
+<!-- Heading for the output section -->
+<!-- <h3>Formatted Output:</h3> -->
+
+<!-- The editor's HTML content is rendered here safely using Angular's binding -->
+<!-- <div [innerHTML]="safeHtml" class="formatted"></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- This container is for the Summernote editor -->
+<!-- <div class="editor-container"> -->
+  <!-- The Summernote editor will be rendered here -->
+  <!-- <div id="summernote"></div>
+</div> -->
+
+<!-- 🔽 Progress bar: Show below editor, above buttons -->
+<!-- <div class="progress-container" *ngIf="uploadInProgress">
+  <div class="progress-bar" [style.width.%]="uploadProgress">{{ uploadProgress }}%</div>
+</div> -->
+
+<!-- Separate container for buttons -->
+<!-- <div class="button-container">  -->
+  <!-- Clear button: will clear the content of the Summernote editor -->
+  <!-- <button (click)="clearContent()">🗑 Clear</button>  -->
+
+  <!-- Save button: will save the content of the Summernote editor to localStorage and the server -->
+  <!-- <button (click)="saveContent()">💾 Save</button>
+</div> -->
+
+<!-- Heading for the output section -->
+<!-- <h3>Formatted Output:</h3> -->
+
+<!-- The editor's HTML content is rendered here safely using Angular's binding -->
+<!-- <div [innerHTML]="safeHtml" class="formatted"></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- This container is for the Summernote editor --> 
+<div class="editor-container">
+  <!-- The Summernote editor will be rendered here -->
+  <div id="summernote"></div>
+</div>
+
+<!-- 🔽 Progress bar: Show below editor, above buttons -->
+<div class="progress-container" *ngIf="uploadInProgress">
+  <div class="progress-bar" [style.width.%]="uploadProgress">{{ uploadProgress }}%</div>
+</div>
+
+<!-- Separate container for buttons -->
+<div class="button-container"> 
+  <!-- Clear button: will clear the content of the Summernote editor -->
+  <button (click)="clearContent()">🗑 Clear</button> 
+
+  <!-- Save button: will save the content of the Summernote editor to localStorage and the server -->
+  <button (click)="saveContent()">💾 Save</button>
+</div>
+
+<!-- Heading for the output section -->
+<h3>Formatted Output:</h3>
+
+<!-- The editor's HTML content is rendered here safely using Angular's binding -->
+<div [innerHTML]="safeHtml" class="formatted"></div>
+
+

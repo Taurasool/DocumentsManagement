@@ -1,0 +1,155 @@
+/* Normal text ke liye table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background-color: #333;  /* Dark background */
+  color: #e0e0e0;  /* Text color */
+  font-size: 16px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #555;
+  text-align: left;
+  color: #e0e0e0;  /* Dark text for better visibility */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);  /* Increased text shadow for contrast */
+}
+
+th {
+  background-color: #444;  /* Darker header */
+  font-weight: 600;
+  color: #ffffff;
+}
+
+tr:hover {
+  background-color: #555;  /* Slightly darker hover effect */
+}
+
+/* General dark background and font */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Editor container (around Summernote) */
+.editor-container {
+  margin: 20px auto;
+  max-width: 90%;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* Summernote editor itself */
+.note-editor.note-frame {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+.note-editable {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+  min-height: 200px;
+}
+
+/* Toolbar (optional improvement for dark look) */
+.note-toolbar {
+  background-color: #1f1f1f !important;
+  border-bottom: 1px solid #333;
+}
+
+/* Buttons */
+.button-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Formatted preview */
+.formatted {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border: 2px dashed #444;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 80%;
+  text-align: left;
+  font-size: 16px;
+  color: #f1f1f1;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  word-wrap: break-word;
+}
+
+.formatted ul,
+.formatted ol {
+  list-style-position: outside;
+  padding-left: 25px;
+  margin-bottom: 1em;
+}
+
+.formatted ul {
+  list-style-type: disc !important;
+}
+
+.formatted ol {
+  list-style-type: decimal !important;
+}
+
+.formatted li {
+  display: list-item !important;
+}
+
+.formatted a {
+  color: #4da6ff;
+  text-decoration: underline;
+}
+
+/* Tables */
+.formatted table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background-color: #333;  /* Darker background */
+  color: #e0e0e0;  /* Darker text */
+  font-size: 16px;
+}
+
+.formatted th,
+.formatted td {
+  padding: 12px;
+  border: 1px solid #555;
+  text-align: left;
+  color: #e0e0e0;  /* Darker text for better visibility */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);  /* Increased text shadow for contrast */
+}
+
+.formatted th {
+  background-color: #444;  /* Darker header */
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.formatted tr:hover {
+  background-color: #555;  /* Slightly darker hover effect */
+}

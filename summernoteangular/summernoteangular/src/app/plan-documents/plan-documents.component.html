@@ -1,0 +1,23 @@
+
+
+<!-- Container for the editor -->
+<div class="editor-container">
+  <!-- The Summernote editor will be rendered here -->
+  <div id="summernote-plan"></div>
+</div>
+
+<!-- Container for buttons: Save and Clear -->
+<div class="button-container">
+  <!-- Clear button: clears both the editor content and the localStorage -->
+  <button (click)="clearContent()" class="btn btn-danger">🗑 Clear</button>
+  
+  <!-- Save button: saves the current content of the editor to localStorage -->
+  <button (click)="saveContent()" class="btn btn-primary">💾 Save</button>
+</div>
+
+<!-- Section to display the formatted output -->
+<h3>Formatted Output:</h3>
+
+<!-- Render the safeHtml content safely in the browser using Angular's innerHTML binding -->
+<div [innerHTML]="safeHtml" class="formatted"></div>
+

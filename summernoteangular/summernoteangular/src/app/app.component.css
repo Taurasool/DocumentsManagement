@@ -1,0 +1,33 @@
+.tab-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab-list {
+  display: flex;
+}
+
+.tab-link {
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tab-link:hover {
+  background-color: #ddd;
+}
+
+.tab-link.active {
+  background-color: #04AA6D;
+  color: white;
+  font-weight: bold;
+}
