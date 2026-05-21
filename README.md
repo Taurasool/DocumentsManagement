@@ -1,17 +1,21 @@
 # Benefits Document Management System
 
-A full-stack document management system built using Angular, Node.js, Express.js, and PostgreSQL.
+A full-stack document management system built using Angular, Node.js, Express.js, and PostgreSQL. The application allows users to create, edit, and manage documents with PDF upload support and rich text editing functionality.
+
+---
 
 ## Features
 
-- User Authentication
-- Secure Document Upload
-- PDF Upload and Download
-- Dynamic Forms
-- Responsive UI
-- REST API Integration
-- Form Validation
-- Role-based Navigation
+- Rich text editor integration
+- PDF upload functionality
+- Dynamic document management
+- REST API integration
+- Responsive user interface
+- Modular Angular components
+- Backend API development
+- File storage handling
+
+---
 
 ## Tech Stack
 
@@ -28,18 +32,12 @@ A full-stack document management system built using Angular, Node.js, Express.js
 ### Database
 - PostgreSQL
 
+---
+
 ## Project Structure
 
-documentsmanagement/
+```text
+DocumentsManagement/
 │
 ├── summernoteangular   # Angular frontend
-├── summernote_node     # Node.js backend
-
-## Installation
-
-### Frontend
-
-```bash
-cd summernoteangular
-npm install
-ng serve
+├── summernote node     # Node.js backend
